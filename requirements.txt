@@ -1,0 +1,53 @@
+# Core dependencies
+asyncio-compat>=0.1.0
+pydantic>=2.0.0
+pyyaml>=6.0
+numpy>=1.21.0
+typing-extensions>=4.0.0
+
+# Embedding providers
+openai>=1.0.0
+anthropic>=0.8.0
+cohere>=4.0.0
+sentence-transformers>=2.2.0
+transformers>=4.21.0
+torch>=1.12.0
+
+# Document parsing
+PyPDF2>=3.0.0
+pdfplumber>=0.9.0
+python-pptx>=0.6.21
+pytesseract>=0.3.10
+Pillow>=9.0.0
+chardet>=5.0.0
+
+# Vector stores
+chromadb>=0.4.0
+opensearch-py>=2.0.0
+pinecone-client>=2.2.0
+
+# Text processing
+nltk>=3.8
+spacy>=3.6.0
+tiktoken>=0.5.0
+langdetect>=1.0.9
+
+# Utilities
+requests>=2.28.0
+aiohttp>=3.8.0
+tqdm>=4.64.0
+python-dotenv>=1.0.0
+
+# Optional OCR support
+# pytesseract>=0.3.10  # Requires tesseract binary
+# easyocr>=1.6.0       # Alternative OCR
+
+# Optional GPU support for transformers
+# torch[cuda]>=1.12.0  # For CUDA support
+
+# Development dependencies (optional)
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+black>=22.0.0
+flake8>=5.0.0
+mypy>=1.0.0
